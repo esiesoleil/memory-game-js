@@ -1,0 +1,19 @@
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+/* блок вывода карточек: 3 ряда по 4 карточки */
+.cardsDiv{
+	display: flex;
+	flex-wrap: wrap;
+	width: 280px;
+}
+
+/*настройка изображений*/
+img {
+	/* width: 100px;
+	height: 100px; */
+	margin: 10px;
+	width: 50px;
+}
